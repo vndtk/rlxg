@@ -1,11 +1,5 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-
 :root {
-    --matrix-green: #00ff00;
+    --matrix-red: #ff2a2a;
     --matrix-black: #0a0a0a;
 }
 
@@ -18,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--matrix-black);
-    color: var(--matrix-green);
+    color: var(--matrix-red);
     font-family: "Matrix", monospace;
     font-size: 18px;
     line-height: 1.6;
@@ -36,14 +30,14 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--matrix-green);
+    color: var(--matrix-red);
     font-family: "Matrix", monospace;
     margin: 1rem 0;
 }
 
 h1 {
     font-size: 2.5rem;
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px #ff2a2a;
 }
 
 p {
@@ -53,12 +47,12 @@ p {
 }
 
 a {
-    color: var(--matrix-green);
+    color: var(--matrix-red);
     text-decoration: underline;
 }
 
 a:hover {
-    text-shadow: 0 0 8px #00ff00;
+    text-shadow: 0 0 8px #ff2a2a;
 }
 
 img {
@@ -70,7 +64,7 @@ img {
 code,
 pre {
     background: #000;
-    color: #00ff00;
+    color: #ff2a2a;
     font-family: "Matrix", monospace;
     padding: 1rem;
     border-radius: 4px;
@@ -79,12 +73,12 @@ pre {
 
 hr {
     border: none;
-    border-top: 1px solid #00ff00;
+    border-top: 1px solid #ff2a2a;
     margin: 2rem 0;
 }
 
 blockquote {
-    border-left: 4px solid #00ff00;
+    border-left: 4px solid #ff2a2a;
     padding-left: 1rem;
-    color: #00ff00;
+    color: #ff2a2a;
 }
